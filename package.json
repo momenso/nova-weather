@@ -7,8 +7,13 @@
     "start": "node server.js"
   },
   "author": "David Momenso",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/momenso/nova-weather.git"
+  },
   "dependencies": {
     "node-dht-sensor": "0.0.5",
-    "bmp085": "0.3.2"
+    "bmp085": "0.3.2",
+    "sqlite3": "2.2.7"
   }
 }
