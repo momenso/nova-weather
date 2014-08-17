@@ -1,7 +1,7 @@
 {
   "name": "nova-weather",
   "version": "0.0.1",
-  "description": "Experimental weather telemetry station"
+  "description": "Experimental weather telemetry station",
   "main": "server.js",
     "scripts": {
     "start": "node server.js"
@@ -9,6 +9,6 @@
   "author": "David Momenso",
   "dependencies": {
     "node-dht-sensor": "0.0.5",
-    "bmp085.js": "0.3.2"
+    "bmp085": "0.3.2"
   }
 }
